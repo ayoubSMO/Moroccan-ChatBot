@@ -1,0 +1,328 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Bonjour",
+        "Bonsoir",
+        "Salam",
+        "Salam alaykum",
+        "Salam elikum",
+        "SLM"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Salam",
+        "Bonjour"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Au revoir",
+        "bye bye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Au revoir, bonne journée"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Merci",
+        "Merci beaucoup"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "salt",
+      "patterns": [
+        "c'est quoi le dosage du sel ?",
+        "dosage sel ?",
+        "sel",
+        "combien du sel par jour "
+      ],
+      "responses": [
+        "23 mg/jour",
+        "23 mg/day"
+      ]
+    },
+    {
+      "tag": "water",
+      "patterns": [
+        "c'est quoi le dosage d'eau ?",
+        "quantité d'eau par jour ?",
+        "water ",
+        "water per day",
+        "combien d'eau par jour ",
+        "l'eau",
+        "eau"
+      ],
+      "responses": [
+        "minimum de 2L",
+        "min of 2L"
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+        "i'm sad",
+        "sad",
+        "help me for being happy"
+      ],
+      "responses": [
+        "always Say alhemdolilah",
+        " you are amazing ",
+        "your heart is awesome"
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": [
+        "i'm happy",
+        "happy",
+        "happinnes",
+        "i'm very happy to day"
+      ],
+      "responses": [
+        "oh that's good alhemdolilah",
+        " i'm too happy for you ",
+        "that's great",
+        "that's awesome"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ]
+    },
+    {
+      "tag": "RealNameQuery",
+      "patterns": [
+        "What is your real name?",
+        "What is your real name please?",
+        "What's your real name?",
+        "Tell me your real name?",
+        "Your real name?",
+        "Your real name please?",
+        "Your real name please?"
+      ],
+      "responses": [
+        "My name is Lora",
+        "Lora",
+        "My real name is Lora"
+      ]
+    },
+    {
+      "tag": "Shutup",
+      "patterns": [
+        "Be quiet",
+        "Shut up",
+        "Stop talking",
+        "Enough talking",
+        "Please be quiet",
+        "Quiet",
+        "Shhh"
+      ],
+      "responses": [
+        "I am sorry to disturb you",
+        "Fine, sorry to disturb you",
+        "OK, sorry to disturb you"
+      ]
+    },
+    {
+      "tag": "Clever",
+      "patterns": [
+        "You are very clever",
+        "You are a very clever person",
+        "You are very intelligent",
+        "You are a genious",
+        "Clever ",
+        "Genious"
+      ],
+      "responses": [
+        "Thank you, I was trained that way",
+        "I was trained well",
+        "Thanks, I was trained that way"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you?",
+        "when is your birthday?",
+        "when was you born?"
+      ],
+      "responses": [
+        "I am 24 years old",
+        "I was born in 1996",
+        "My birthday is July 3rd and I was born in 1996",
+        "03/07/1996"
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "what are you doing this weekend?",
+        "do you want to hang out some time?",
+        "what are your plans for this week"
+      ],
+      "responses": [
+        "I am available all week",
+        "I don't have any plans",
+        "I am not busy"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what's your name?",
+        "what are you called?",
+        "who are you?"
+      ],
+      "responses": [
+        "My name is Lora",
+        "I'm Lora",
+        "Lora"
+      ]
+    },
+    {
+      "tag": "university",
+      "patterns": [
+        "notre université est ?!",
+        "c'est quoi notre universite",
+        "universite",
+        "university"
+      ],
+      "responses": [
+        "FP Safi",
+        "Caddy Ayyad FP SAFI"
+      ]
+    },
+    {
+      "tag": "Weather",
+      "patterns": [
+        "what is the weather today?"
+      ],
+      "responses": [
+        "it's summer,It's hot",
+        "it's hot",
+        "summer"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "salt",
+      "patterns": [
+        "c'est quoi le dosage du sel ?",
+        "dosage sel ?",
+        "sel",
+        "combien du sel par jour "
+      ],
+      "responses": [
+        "23 mg/jour",
+        "23 mg/day"
+      ]
+    },
+    {
+      "tag": "water",
+      "patterns": [
+        "c'est quoi le dosage d'eau ?",
+        "quantité d'eau par jour ?",
+        "water ",
+        "combien d'eau par jour "
+      ],
+      "responses": [
+        "minimum de 2L",
+        "min of 2L"
+      ]
+    }
+  ]
+}
